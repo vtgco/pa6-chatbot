@@ -16,10 +16,13 @@ class Chatbot:
         # TODO: Give your chatbot a new name.
         self.name = 'moviebot'
 
+        # HELLO HELLO HELLO
         self.creative = creative
 
         # This matrix has the following shape: num_movies x num_users
         # The values stored in each row i and column j is the rating for
+
+        # "HELLO HELLO HELLO"
         # movie i by user j
         self.titles, ratings = util.load_ratings('data/ratings.txt')
         self.sentiment = util.load_sentiment_dictionary('data/sentiment.txt')
